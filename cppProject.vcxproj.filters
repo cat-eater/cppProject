@@ -29,8 +29,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="renderer.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="cubeState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shader.fs">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
